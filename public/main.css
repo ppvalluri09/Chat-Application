@@ -1,0 +1,90 @@
+
+*{
+  color: white;
+}
+
+body{
+  background: black;
+  margin-left: 10px;
+  padding: 0;
+}
+
+#box1{
+  /*border: 1px dashed white;*/
+  color: white;
+  font-size: 25px;
+  margin: 100px auto;
+  padding: 20px;
+  padding-top: 0;
+  padding-bottom: 50px;
+  width: 370px;
+  text-align: center;
+}
+
+.btn, .name, .input{
+  display: inline-block;
+  outline: none;
+}
+
+.name, .input{
+  position: relative;
+  background: none;
+  color: white;
+  border: 1px solid white;
+  padding: 15px;
+}
+
+.name:hover{
+  background: white;
+  color: black;
+}
+
+.input{
+  left: 47%;
+}
+
+.input:hover{
+  background: white;
+  color: black;
+}
+
+.btn, .btn1, .btn2{
+  background: none;
+  border: 1px dashed white;
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.6s;
+}
+
+.btn:hover{
+  background: white;
+  color: black;
+  transform: scale(1.09);
+}
+
+.btn1:hover{
+  background: white;
+  color: black;
+  transform: scale(1.09);
+}
+
+.btn2:hover{
+  background: white;
+  color: black;
+  transform: scale(1.09);
+}
+
+.msg{
+  font-size: 20px;
+  text-align: left;
+}
+
+ol{
+  border-top: 1px solid white;
+}
+
+li{
+  margin-bottom: 7px;
+}

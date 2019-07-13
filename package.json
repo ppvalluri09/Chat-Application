@@ -1,0 +1,17 @@
+{
+  "name": "video_call",
+  "version": "1.0.0",
+  "description": "Video calling application",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "Hello World",
+    "start": "node server.js"
+  },
+  "author": "Valluri Pavan Preetham",
+  "license": "ISC"
+}
